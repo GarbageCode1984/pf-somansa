@@ -161,7 +161,9 @@ main h3{
 }
 
 
-.s4{}
+.s4{
+    overflow:hidden;
+}
 .left, .right {
     width: 490px;
 }
@@ -172,7 +174,6 @@ main h3{
     box-sizing: border-box;
 }
 .right {
-    background-color: pink;
     float:right;
 }
 .youtube{
@@ -203,4 +204,140 @@ main h3{
 }
 .logos  a img{
     vertical-align: middle;
+}
+.right h4{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.vision{
+    background-color: #414d53;
+    margin-bottom: 20px;
+    padding: 10px 10px 50px;
+}
+.vision p{
+    text-align: center;
+    color:#aaa;
+}
+.news_list{
+    background-color: #ff8c3a;
+    position: relative;
+    padding: 10px;
+}
+.news_list h4{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 15px;
+}
+.more{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.news_list li {
+    height: 30px;
+}
+.news_list ul a{
+    color: #fff;
+}
+.news_list ul p:first-child{ 
+    float:left;
+    font-size: 14px;
+}
+.news_list ul p.date{
+    float:right;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+
+.footer_wrap{
+    background: #404b51;
+}
+.footer_top{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    height: 50px;
+    margin-bottom: 30px;
+}
+.footer_top a {}
+.footer_menu{
+    float: left;
+}
+footer{
+    height: 150px;
+}
+.footer_menu li{
+    float: left;
+    margin-right: 20px;
+}
+.footer_menu li a{
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+}
+.select{
+    float: right;
+    width:  170px;
+    font-size: 12px;
+}
+.select_btn {
+    width: 170px;
+    background: #000; color:#fff;
+    padding: 5px 10px; margin-top: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.select_list {
+    display: none;
+    width: 170px;
+}
+.select_list a {
+    display: block;
+    padding: 10px;
+    color:#666;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.select_list a:hover{
+    background-color: #ff8c3a;
+    color: #fff;
+}
+.select:hover .select_list{
+    display: block;
+}
+
+.center h2{
+    float: left;
+    width:  200px;
+    height: 100px;
+}
+.address p{
+    display: inline-block;
+    font-size: 14px;
+}
+.add_p1{
+    color: #ddd;
+}
+.add_p2{
+    color: #404B51;
+}
+
+.center{
+    position: relative;
+}
+.sns{
+    position:absolute;    
+    top: 0;
+    left: 65%;
+}
+.sns a{
+    display: inline-block;
+    background: #4d5a61;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.sns img{
+    display: block;
+    margin: 25% auto;
 }
